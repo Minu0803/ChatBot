@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView textViewResponse;
 
     // OpenAI API 키와 URL
-    private static final String OPENAI_API_KEY = "api 키 입력";
+    private static final String OPENAI_API_KEY = "api 키를 입력하세요";
     private static final String OPENAI_API_URL = "https://api.openai.com/v1/chat/completions";
 
     private final OkHttpClient client = new OkHttpClient();
